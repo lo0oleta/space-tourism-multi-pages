@@ -42,8 +42,8 @@ export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box opacity="30%" bg="black">
-      <Flex minH={"60px"} py={{ base: 2 }} px={{ base: 4 }} align={"center"}>
+    <Box opacity="40%" bg="black">
+      <Flex minH={"90px"} py={{ base: 2 }} px={{ base: 4 }} align={"center"}>
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
